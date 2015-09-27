@@ -1,6 +1,6 @@
 {
   "name": "node-matrix-asset-status",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Asset status helper for Squiz Matrix",
   "main": "index.js",
   "scripts": {
