@@ -1,0 +1,32 @@
+{
+  "name": "node-matrix-asset-status",
+  "version": "0.0.0",
+  "description": "Asset status helper for Squiz Matrix",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joshgillies/node-matrix-asset-status.git"
+  },
+  "keywords": [
+    "squiz",
+    "matrix",
+    "my",
+    "source",
+    "mysource",
+    "asset",
+    "status"
+  ],
+  "author": "Josh Gillies <npm@joshgilli.es> (http://joshgilli.es/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joshgillies/node-matrix-asset-status/issues"
+  },
+  "homepage": "https://github.com/joshgillies/node-matrix-asset-status#readme",
+  "devDependencies": {
+    "standard": "^5.3.1",
+    "tape": "^4.2.0"
+  }
+}
