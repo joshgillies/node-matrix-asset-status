@@ -1,6 +1,6 @@
 # node-matrix-asset-status
 
-Asset status helper for Squiz Matrix
+Asset status helper for Squiz Matrix.
 
 Extracted using the [SOAP API GetAllStatuses] function.
 
@@ -13,7 +13,7 @@ Extracted using the [SOAP API GetAllStatuses] function.
 var status = require('node-matrix-asset-status')
 ```
 
-`node-matrix-asset-status` provides a simple querying interface wich allows you to retrieve
+`node-matrix-asset-status` provides a simple querying interface which allows you to retrieve
 asset status codes with the following:
 
 ```js
@@ -23,7 +23,7 @@ console.log(status('live')) // 16
 
 In addition you can pass in a valid status code and get the status name back:
 
-```
+```js
 console.log(status(16)) // 'Live'
 
 ```
